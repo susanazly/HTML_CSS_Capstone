@@ -28,14 +28,19 @@
 
 }
 
+.adding-flex-second{
+    display:flex;
+    justify-content: flex-end;
 
+}
 .navbar a{
     text-decoration: none;
     color: black;
 }
 
 .carousel-image{
-    height: 300px;
+    width: 500px;
+    height: 450px;
 }
 
 .contact{
@@ -47,4 +52,11 @@
     justify-content: center;
 }
 
+.background{
+    background-image: url(../images/paper2.jpeg);
 
+}
+
+body{
+    background-color: #604444;
+}
