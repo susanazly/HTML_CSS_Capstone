@@ -44,7 +44,8 @@
 }
 
 .contact{
-    background-color: pink;
+    background-color: #604444;
+    padding-bottom: 0;
 }
 
 .registrar{
@@ -60,3 +61,24 @@
 body{
     background-color: #604444;
 }
+
+.form{
+    background-color:white;
+}
+
+.btn-minamalist{
+    background-color: #604444;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.login{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.background-login{
+    background-color: transparent;
+
+}
+

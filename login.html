@@ -1,54 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
-integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
-crossorigin="anonymous">
-<link rel="stylesheet" href="css/main.css">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title> Tiny Care</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+        
+            </head>
+            <div class="background img-fluid"> 
+            <header class="container">
+  
+
+                <img src="images/logo.png" alt= "Welcome" 
+                class="img-fluid rounded w-auto" height="270px">
+            
+                <div class="navbar contact">
+                  <div class="adding-flex">
+                     <nav>
+                         <ul class="list-unstyled">
+                             
+                             <li class="d-inline p-2"><a href="index.html">Home</a></li>
+                             <li class="d-inline p-2"><a href="products.html">Products</a></li>
+                             <li class="d-inline p-2"><a href="login.html">Client Login</a></li>
+                             <li class="d-inline p-2"><a href="registrar.html">Register</a></li>
+                         </ul>
+                     </nav>
+                </div>
+                
+             <div class="adding-flex-second">
+                 <nav>
+                     <ul class="list-unstyled">
+             <li class="d-inline p-2"><a href="checkout.html">Cart</a></li>
+                     <li class="d-inline p-2"><a href="contact.html">Contact Us</a></li>
+                     <li class="d-inline p-2"><a href="team.html">Our Team</a></li>
+                     </ul>
+                 </nav>
+             </div>
+                </div>
+                <br>
+            <h1 class="text-black text-center"> Client Login </h1>
+            </header>
+
 </head>
-<div>
-    <nav class="navbar navbar-dark bg-dark" id="nav-bar">
-        <!-- Navbar content -->
-        <ul class="button-def">
-            <li> <button class="btn btn-pink">Logout </button> </li>
-        </ul>
-      </nav> 
-     </div> 
-<div class="text-center"> 
-    <div id="form">
-           <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="form-group form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+<div class="rounded container background-login form">
+<form class="container container-login">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <br>
+  <button type="submit" class="btn btn-minamalist container">Submit</button>
+  
+</form>
 </div>
-</div>
-
-
- <!-- Bootstrap script files go at the bottom of the body-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-crossorigin="anonymous"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" 
-crossorigin="anonymous"></script>
+<footer class="container">
+    <p class= "text-center">&copy; Tiny Care 2020</p>
+    </footer>
+    
+    </div>
+    
+  </div>   
+    <!-- Bootstrap script files go at the bottom of the body-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" 
+        crossorigin="anonymous"></script>
+    
+    <!-- Javascript files will be included here-->
 </body>
 
 
+  
 
 </html>
