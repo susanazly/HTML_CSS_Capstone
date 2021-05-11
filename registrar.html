@@ -25,23 +25,38 @@
                             <li class="d-inline p-2"><a href="index.html">Home</a></li>
                             <li class="d-inline p-2"><a href="products.html">Products</a></li>
                             <li class="d-inline p-2"><a href="login.html">Client Login</a></li>
+                            <li class="d-inline p-2"><a href="registrar.html">Register</a></li>
                             <li class="d-inline p-2"><a href="checkout.html">Cart</a></li>
                             <li class="d-inline p-2"><a href="contact.html">Contact Us</a></li>
                             <li class="d-inline p-2"><a href="team.html">Our Team</a></li>
                         </ul>
                     </nav>
                </div>
-            <h1 class="text-black text-center"> Register </h1>
+               <div class="text-center">
+            <h1 class="text-black"> Register </h1>
+            <br>
+            <img src="images/sagecrystals.jpg" alt= "Welcome" 
+    class="img-fluid rounded" height="270px">
+             </div>
             </header>
 
 </head>
-
-<main>
-
-
+<br>
+<main class="container">
+    <form  class="registrar" action="http://lab.alexcican.com/minimal_signup_form/about.html" method="get">
+      <br>
+        <span class="input"></span>
+        <input type="text" name="name" placeholder="Full name" title="Format: Xx[space]Xx (e.g. Alex Cican)" autofocus autocomplete="off" required pattern="^\w+\s\w+$" />
+        <span class="input"></span>
+        <input type="email" name="email" placeholder="Email address" required />
+        <span id="passwordMeter"></span>
+        <input type="password" name="password" id="password" placeholder="Password" title="Password min 8 characters. At least one UPPERCASE and one lowercase letter" required pattern="(?=^.{8,}$)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$"/>
+      
+        <button type="submit" value="Sign Up" title="Submit form" class="icon-arrow-right"><span>Sign up</span></button>
+      </form>
 
 </main>
-
+<br>
 <footer class="container">
     <p class= "text-center">&copy; Tiny Care 2020</p>
     </footer>

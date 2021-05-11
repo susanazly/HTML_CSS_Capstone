@@ -24,9 +24,10 @@
 
 .adding-flex{
     display:flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 
 }
+
 
 .navbar a{
     text-decoration: none;
@@ -40,3 +41,10 @@
 .contact{
     background-color: pink;
 }
+
+.registrar{
+    display: flex;
+    justify-content: center;
+}
+
+
