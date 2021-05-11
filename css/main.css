@@ -1,0 +1,42 @@
+.body {
+    background-color: lightblue;
+
+}
+
+.btn-pink{
+    background-color: pink;
+}
+
+#nav-bar{
+    margin-bottom: 10%;
+
+}
+
+#form{
+    width: 100%;
+   display:flex;
+    justify-content:center;
+}
+
+.button-def{
+    list-style: none;
+}
+
+.adding-flex{
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.carousel-image{
+    height: 300px;
+}
+
+.contact{
+    background-color: pink;
+}
