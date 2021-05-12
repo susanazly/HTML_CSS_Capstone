@@ -35,7 +35,6 @@
                <div class="adding-flex-second">
                    <nav>
                        <ul class="list-unstyled">
-               <li class="d-inline p-2"><a href="checkout.html">Cart</a></li>
                        <li class="d-inline p-2"><a href="contact.html">Contact Us</a></li>
                        <li class="d-inline p-2"><a href="team.html">Our Team</a></li>
                        </ul>
@@ -53,27 +52,28 @@
 
 </head>
 <br>
-<br>
-<main class="rounded container background-login form">
+
+<main class="rounded container background-login form2">
     <form class="container container-login">
         <div class="form-group">
             <label for="name">Full Name</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name">
+            <input type="text" class="form-control" id="nameField" aria-describedby="Name" placeholder="Full Name" required>
           </div>
+          <br>
       <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
       </div>
       <div class="form-group">
          <label class="number" for="exampleCheck1" >Phone Number</label> 
          <input class="form-control" id="example123" placeholder="Number">
       </div>
-      <label for="cars">Choose a form of communication:</label>
+      <label for="communication">Choose a form of communication:</label>
 
 <select name="Communication" id="Communication">
   <option value="email">Email</option>
@@ -86,7 +86,6 @@
     </form>
     </main>
 
-</main>
 <br>
 <footer class="container">
     <p class= "text-center">&copy; Tiny Care 2020</p>
