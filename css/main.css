@@ -36,6 +36,7 @@
 .navbar a{
     text-decoration: none;
     color: black;
+
 }
 
 .carousel-image{
@@ -87,6 +88,19 @@ body{
     color: black;
 }
 
+.cart{
+    color:#f8f8f8;
+}
 
 
+.navbar ul li a:hover{
+    background-color:#E9DFD6;
+    font-size: 1.2em;
+    padding:6px;
+    border-radius: 3px;
+}
+
+.navbarheight{
+    height: 70px
+}
 
